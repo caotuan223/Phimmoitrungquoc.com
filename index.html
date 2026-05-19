@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Phim mới mỗi ngày</title>
+
+<style>
+:root{--accent:#e50914;--bg1:#0f1724;--bg2:#15213a}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Arial,Helvetica,sans-serif;color:#fff}
+body{
+  background: linear-gradient(135deg,var(--bg1),var(--bg2));
+  -webkit-font-smoothing:antialiased;
+}
+.wrapper{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:40px 20px;
+}
+.card{
+  width:100%;
+  max-width:980px;
+  background:rgba(255,255,255,0.03);
+  border-radius:18px;
+  padding:48px 36px;
+  text-align:center;
+  box-shadow:0 10px 30px rgba(2,6,23,0.6), inset 0 1px 0 rgba(255,255,255,0.02);
+}
+.header{
+  font-size:42px;
+  margin:0 0 12px 0;
+}
+.desc{
+  color:#dfe7f5;
+  opacity:0.9;
+  margin:0 0 26px 0;
+  font-size:20px;
+}
+.button{
+  display:inline-block;
+  background:var(--accent);
+  color:#fff;
+  text-decoration:none;
+  padding:16px 42px;
+  border-radius:14px;
+  font-size:22px;
+  font-weight:700;
+  box-shadow:0 8px 20px rgba(233,9,20,0.22);
+}
+.footer-note{
+  margin-top:18px;
+  color:#9fb0d6;
+  font-size:13px;
+}
+@media (max-width:520px){
+  .header{font-size:30px}
+  .button{padding:12px 28px;font-size:18px}
+}
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="card">
+    <h1 class="header">🎬 Phim ngắn Starfish — Tập 2</h1>
+    <p class="desc">Bấm nút bên dưới để xem tiếp tập phim. Trang này là phiên bản nhanh, nhẹ, chạy được trên điện thoại và desktop.</p>
+
+    <a class="button" href="https://s.shopee.vn/3B4MMUKuoY" target="_blank" rel="noopener noreferrer">▶ XEM NGAY</a>
+
+    <p class="footer-note">Muốn thêm ảnh nền hoặc nhúng video, mình có thể cập nhật. Nếu muốn xuất bản lên GitHub Pages, mình sẽ hướng dẫn tiếp.</p>
+  </div>
+</div>
+</body>
+</html>
